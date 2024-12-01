@@ -5,6 +5,7 @@ using namespace std;
 std::mutex m;
 std::condition_variable cv;
 deque<int> buffer;
+
 int max_capacity = 100;
 
 void producer(int val)
